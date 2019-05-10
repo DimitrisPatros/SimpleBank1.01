@@ -17,9 +17,10 @@ namespace SimpleBank
             account.Deposite(45);
             account.Deposite(1140);
             account.Withdraw(-200);
+
             //account.PrintTransactions();
             //account.SaveToFile("fristTryToSave.txt");
-            
+            //this action save to the list
             account.SaveToJason();
         }
     }
